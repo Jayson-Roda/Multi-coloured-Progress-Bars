@@ -1,0 +1,68 @@
+body{
+    padding: 10% 20%;
+    text-align: center;
+    background: #FAFAFA;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.progress {
+    background-color: #EBEBEB;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    box-shadow: 2px -63px 24px -48px rgba(250, 250, 245, 0.25) inset;
+}
+
+span {
+    position: absolute;
+    top: 10%;
+    left: 48%;
+}
+
+.fill {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.5) 50%,rgba(255, 255, 255, 0.5) 75%, transparent 75%, transparent);
+    border-radius: 20px;
+    background-size: 20px;
+    animation: move 0.5s linear infinite;
+}
+
+@keyframes move {
+    100%{
+        background-position: 20px 0px;
+    }
+}
+
+.a {
+    background-color: rgb(195, 230, 137);
+    width: 50%;
+    height: 100%;
+}
+
+.b {
+    background-color: rgb(254, 135, 120);
+    width: 50%;
+    height: 100%;
+}
+
+.c {
+    background-color: rgb(254, 254, 254);
+    width: 50%;
+    height: 100%;
+}
+
+.d {
+    background-color: rgb(158, 210, 243);
+    width: 50%;
+    height: 100%;
+}
+
+.e {
+    background-color: rgb(254, 207, 89);
+    width: 50%;
+    height: 100%;
+}
